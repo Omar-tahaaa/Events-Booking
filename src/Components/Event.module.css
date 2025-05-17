@@ -1,0 +1,98 @@
+.wrap h3 {
+  font-size: 1.1em;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.wrap p {
+  font-size: 1em;
+  line-height: 1.7;
+  color: var(--text-gray);
+  margin: 0 0 20px 0;
+}
+
+.wrap .description {
+  white-space: wrap;
+}
+
+.wrap a {
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 32.5%;
+  box-shadow: 0 5px 15px #ddd;
+  transition: 0.17s;
+}
+.wrap:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+  box-shadow: 0 3px 8px #ddd;
+}
+
+.wrap svg {
+  margin-bottom: -1px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  background: #fff;
+  width: 100%;
+}
+
+.image {
+  width: 100%;
+  height: 100px;
+}
+
+.title {
+  border-left: 3px solid var(--purple);
+  padding-left: 12px;
+}
+
+.location {
+  color: hsl(0, 0%, 60%);
+  font-weight: 300;
+}
+.dateBox {
+  display: flex;
+  justify-content: space-between;
+}
+.date {
+  font-weight: 500;
+}
+
+.button {
+  display: block;
+  text-align: center;
+  margin-top: auto;
+  padding: 10px;
+  color: white;
+  width: 100%;
+
+  /* box-shadow: 0px 0px 0px 1px black inset; */
+  border: none;
+
+  cursor: pointer;
+}
+
+.booked {
+  background: red;
+}
+
+.unBooked {
+  background: #6d7fcc;
+  transition: background 0.4s ease;
+}
+
+.unBooked:hover {
+  background: var(--light-gray-bg);
+  color: black;
+}

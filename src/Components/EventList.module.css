@@ -1,0 +1,11 @@
+.content {
+  padding: 10px 40px;
+}
+.content h2 {
+  margin: 20px;
+}
+.eventsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}

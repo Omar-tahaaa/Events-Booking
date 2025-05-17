@@ -1,0 +1,70 @@
+{
+  "events": [
+    {
+      "id": "1",
+      "title": "Artificial Intelligence in Medicine",
+      "location": "Tolip Golden Plaza Hotel",
+      "image": "../src/assets/image1.png",
+      "description": "Pure Spot Events Management",
+      "date": "Thu, 29 May",
+      "peopleIntersted": 20,
+      "price": 450,
+      "about": "Join us for an insightful day exploring the cutting-edge integration of Artificial Intelligence (AI) in the field of medicine! This conference brings together leading experts and professionals to discuss the impact of AI on medical practice and education, with a focus on real-world applications and innovations shaping the future of healthcare.This event is a must-attend for doctors, medical students, healthcare professionals, educators, and AI enthusiasts eager to learn about the latest advancements and trends in AI and healthcare."
+    },
+    {
+      "id": "2",
+      "title": "Mentoring summit",
+      "location": "The GrEEK Campus",
+      "image": "../src/assets/image2.png",
+      "description": "Mentoring Platform",
+      "date": "Fri, 01 Aug",
+      "peopleIntersted": 100,
+      "price": 300,
+      "about": "Join us for an exclusive #event hosted by #Mentoring_Platform , where the worlds of #mentorship and #entrepreneurship collide at the #Mentoring_Summit.This groundbreaking event is the #first of its kind in Egypt and the Middle East, bringing together #mentors , #startups, and #professionals to foster meaningful connections and drive innovation."
+    },
+    {
+      "id": "3",
+      "title": "Disney On Ice (Let’s Celebrate)",
+      "location": "Cairo International Stadium - Indoor Complex",
+      "image": "../src/assets/image3.png",
+      "description": "Tazkarti Events",
+      "date": "Wed, 21 May",
+      "peopleIntersted": 15,
+      "price": 500,
+      "about": "Get ready for an unforgettable journey as Disney On Ice: Let’s Celebrate comes to Egypt in 2025! From May 21 to May 31, Cairo International Stadium’s Indoor Hall will be transformed into a magical Disney wonderland, bringing to life the most cherished characters and moments from your favorite Disney tales. Relive the enchantment with dazzling visuals, captivating choreography, and heartwarming stories as you meet beloved characters like Mickey & Minnie Mouse, and a delightful lineup of Disney Princesses, including Moana, Anna, Elsa, and the lovable Olaf. With over 100 world-class skaters and a dedicated team of 150 production specialists, every detail is designed to immerse you in the magic. From stunning sets to jaw-dropping special effects, this year’s production promises an experience that will leave you and your family spellbound. Don’t miss your chance to be part of the magic!"
+    },
+    {
+      "id": "4",
+      "title": "The 3rd Basic ENT Conference (BENTC)",
+      "location": "Egyptian Medical Syndicate",
+      "image": "../src/assets/image4.png",
+      "description": "Leaders Conferences Organizers",
+      "date": "Fri, 23 May",
+      "peopleIntersted": 55,
+      "price": 260,
+      "about": "Mark your calendar for✨The 3rd Basic ENT Conference (BENTC)✨Surgery of Nasal Septum"
+    },
+    {
+      "id": "5",
+      "title": "Africa FinTech Forum – Cairo 2025",
+      "location": "Cairo, Egypt",
+      "image": "../src/assets/image5.png",
+      "description": "Ishraq I",
+      "date": "Tue, 10 Jun",
+      "peopleIntersted": 126,
+      "price": 200,
+      "about": "Africa’s premier fintech conference returns to Cairo! Join regulators fintech pioneers C-level banking leaders investors and tech innovators for a full day of transformative insights high-impact networking and deep dives into the future of financial services in Africa."
+    },
+    {
+      "id": "6",
+      "title": "Arabic Club (intermediate)",
+      "location": "9 Al Kanal Street, Maadi",
+      "image": "../src/assets/image6.png",
+      "description": "Bab Initiative",
+      "date": "Wed, 14 May",
+      "peopleIntersted": 87,
+      "price": 380,
+      "about": "🌟 Welcome to the Arabic Club! 🌟This group is for non-native speakers who want to learn and practice Arabic in a friendly environment! 🇪🇬✨"
+    }
+  ]
+}

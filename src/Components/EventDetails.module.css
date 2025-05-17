@@ -1,0 +1,87 @@
+.event {
+  width: 80%;
+  position: relative;
+  box-shadow: 0 2px 7px #dfdfdf;
+  margin: 50px auto;
+  background: #fafafa;
+}
+
+.eventImageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  padding: 50px;
+  background: #f0f0f0;
+}
+
+.eventImageContainer img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.eventDetails {
+  padding: 30px;
+}
+
+.eventCatagory {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ccc;
+  margin-bottom: 18px;
+}
+
+.eventDetails h4 a {
+  font-weight: 500;
+  display: block;
+  margin-bottom: 18px;
+  text-transform: uppercase;
+  color: #363636;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.eventDetails h4 a:hover {
+  color: #fbb72c;
+}
+
+.eventDetails p {
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 18px;
+  color: #999;
+}
+.eventPrice {
+  font-size: 18px;
+  color: #fbb72c;
+  font-weight: 600;
+}
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+}
+.button {
+  width: 40%;
+  text-align: center;
+  padding: 10px;
+  color: var(--white);
+  border: none;
+  cursor: pointer;
+  margin: 20px auto;
+}
+
+.booked {
+  background: red;
+}
+
+.unBooked {
+  background: #6d7fcc;
+  transition: background 0.4s ease;
+}
+
+.unBooked:hover {
+  background: var(--light-gray-bg);
+  color: black;
+}
