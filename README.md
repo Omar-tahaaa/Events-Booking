@@ -1,12 +1,46 @@
-# React + Vite
+to run project
+for frontend use npm run dev
+for backend use json-server --watch data/events.json --port 8000
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Event Booking System
 
-Currently, two official plugins are available:
+A platform built with **React**, **Redux Toolkit**, and **Firebase**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+statrting with homepage when you click strat tracking you will move to events
+all events have link with their details when you clicked on any event
+in event details if you not loooged in you will see details only
+if you looged in you can book tickets 
+in side bar you will see booking 
+if you are logged in you will see all events was booked
+you can create , edit , update and delete event
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🛍️ Core Functionality
+- **Event Booking**  
+  Create , add, update, and remove events for admin in booking section .
+
+- **User Authentication**  
+  Integrated **Firebase Authentication** for secure login, registration, and session handling.
+
+
+### 🎨 UI & Design
+- **Modern Interface**  
+  Developed using **Bootstrap** and **module.css** 
+
+
+### 🔄 State Management
+- **Redux Toolkit Integration**  
+  Centralized state management for product data, cart operations, and user actions using reducers, actions, and a Redux store.
+
+### 🔐 Persistence & Security
+- **Firebase**  
+  Handled user authentication and session management with Firebase for secure and reliable data handling.
+
+## 🧰 Tech Stack
+
+- **Frontend**: React, Redux Toolkit, 
+- **Backend Services**: Firebase Authentication
+- **State Management**: Redux Toolkit
+- **Form Auth**: React Formik 
+- **Styling**:CSS Modules , Bootstrap
