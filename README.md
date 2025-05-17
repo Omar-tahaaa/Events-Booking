@@ -8,7 +8,7 @@ A platform built with **React**, **Redux Toolkit**, and **Firebase**
 
 statrting with homepage when you click strat tracking you will move to events
 all events have link with their details when you clicked on any event
-in event details if you not loooged in you will see details only
+in event details if you not logged in you will see details only
 if you looged in you can book tickets 
 in side bar you will see booking 
 if you are logged in you will see all events was booked
