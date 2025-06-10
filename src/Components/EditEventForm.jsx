@@ -13,9 +13,17 @@ function EditEventForm() {
   const dispatch = useDispatch();
 
   useEffect(() => {
+    function increasteTicketsToEvent(event) {
+      const [foundedEvent] = events.filter((ev) => ev.id === event.id);
+      setEvent({
+        ...event,
+        tickets: foundedEvent.tickets,
+        booked: foundedEvent.tickets > 0,
+      });
+    }
     fetch(`http://localhost:3000/events/${id}`)
       .then((res) => res.json())
-      .then((data) => setEvent(data));
+      .then((data) => increasteTicketsToEvent(data));
   }, [id]);
 
   function dispatchingEvents(event) {
@@ -76,6 +84,12 @@ function EditEventForm() {
     setEvent({
       ...event,
       location: e.target.value,
+    });
+  }
+  function handleTicketsChange(e) {
+    setEvent({
+      ...event,
+      tickets: e.target.value,
     });
   }
   function handleDateChange(e) {
@@ -164,6 +178,16 @@ function EditEventForm() {
                       id="location"
                       value={event.location || ""}
                       onChange={handleLocationChange}
+                    />
+                  </div>
+                  <div className="form-outline mb-4">
+                    <label className="form-label">Tickets</label>
+                    <input
+                      type="number"
+                      className="form-control"
+                      id="tickets"
+                      value={event.tickets || 0}
+                      onChange={handleTicketsChange}
                     />
                   </div>
                   <div className="form-outline mb-4">

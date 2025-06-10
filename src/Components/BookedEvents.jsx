@@ -7,9 +7,7 @@ import { MdDelete, MdOutlinePreview } from "react-icons/md";
 
 import Swal from "sweetalert2";
 
-
 function BookedEvents({ event }) {
-
   const dispatch = useDispatch();
   const { events } = useSelector((state) => state.events);
   const { bookedEvents } = useSelector((state) => state.events);
@@ -37,7 +35,7 @@ function BookedEvents({ event }) {
       showCancelButton: true,
       confirmButtonColor: "#3085d6",
       cancelButtonColor: "#d33",
-      confirmButtonText: "Yes, Logout me!",
+      confirmButtonText: "Okay",
     }).then(async (result) => {
       if (result.isConfirmed) {
         try {

@@ -21,7 +21,7 @@ function AddEventForm() {
   const dispatch = useDispatch();
 
   function dispatchingEvents(data) {
-    const updateEventWithId = { ...data };
+    const updateEventWithId = { ...data, tickets: 0 };
 
     dispatch(updateEvents([...events, updateEventWithId]));
 

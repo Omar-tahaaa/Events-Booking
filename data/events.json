@@ -8,8 +8,10 @@
       "description": "Pure Spot Events Management",
       "date": "Thu, 29 May",
       "peopleIntersted": 20,
-      "price": 450,
-      "about": "Join us for an insightful day exploring the cutting-edge integration of Artificial Intelligence (AI) in the field of medicine! This conference brings together leading experts and professionals to discuss the impact of AI on medical practice and education, with a focus on real-world applications and innovations shaping the future of healthcare.This event is a must-attend for doctors, medical students, healthcare professionals, educators, and AI enthusiasts eager to learn about the latest advancements and trends in AI and healthcare."
+      "price": "450",
+      "about": "Join us for an insightful day exploring the cutting-edge integration of Artificial Intelligence (AI) in the field of medicine! This conference brings together leading experts and professionals to discuss the impact of AI on medical practice and education, with a focus on real-world applications and innovations shaping the future of healthcare.This event is a must-attend for doctors, medical students, healthcare professionals, educators, and AI enthusiasts eager to learn about the latest advancements and trends in AI and healthcare.",
+      "tickets": 1,
+      "booked": true
     },
     {
       "id": "2",
@@ -19,8 +21,10 @@
       "description": "Mentoring Platform",
       "date": "Fri, 01 Aug",
       "peopleIntersted": 100,
-      "price": 300,
-      "about": "Join us for an exclusive #event hosted by #Mentoring_Platform , where the worlds of #mentorship and #entrepreneurship collide at the #Mentoring_Summit.This groundbreaking event is the #first of its kind in Egypt and the Middle East, bringing together #mentors , #startups, and #professionals to foster meaningful connections and drive innovation."
+      "price": "350",
+      "about": "Join us for an exclusive #event hosted by #Mentoring_Platform , where the worlds of #mentorship and #entrepreneurship collide at the #Mentoring_Summit.This groundbreaking event is the #first of its kind in Egypt and the Middle East, bringing together #mentors , #startups, and #professionals to foster meaningful connections and drive innovation.",
+      "tickets": 2,
+      "booked": true
     },
     {
       "id": "3",
@@ -65,6 +69,17 @@
       "peopleIntersted": 87,
       "price": 380,
       "about": "🌟 Welcome to the Arabic Club! 🌟This group is for non-native speakers who want to learn and practice Arabic in a friendly environment! 🇪🇬✨"
+    },
+    {
+      "id": "7111",
+      "title": "event",
+      "location": "cairo",
+      "image": "https://thumbs.dreamstime.com/b/events-sign-colorful-letter-blocks-spelling-isolated-white-background-30941719.jpg?w=768",
+      "description": "test",
+      "date": "Fri, 01 Aug",
+      "peopleIntersted": "20",
+      "price": "100",
+      "about": "teeest"
     }
   ]
 }
