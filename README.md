@@ -1,46 +1,67 @@
-to run project
-for frontend use npm run dev
-for backend use json-server --watch data/events.json --port 8000
+# 🎟️ Event Booking System
 
-# Event Booking System
+A dynamic and responsive platform for browsing, booking, and managing events, built using **React**, **Redux Toolkit**, and **Firebase Authentication**.
 
-A platform built with **React**, **Redux Toolkit**, and **Firebase**
-
-statrting with homepage when you click strat tracking you will move to events
-all events have link with their details when you clicked on any event
-in event details if you not logged in you will see details only
-if you looged in you can book tickets 
-in side bar you will see booking 
-if you are logged in you will see all events was booked
-you can create , edit , update and delete event
+---
 
 ## 🚀 Features
 
 ### 🛍️ Core Functionality
-- **Event Booking**  
-  Create , add, update, and remove events for admin in booking section .
 
-- **User Authentication**  
-  Integrated **Firebase Authentication** for secure login, registration, and session handling.
+- **Event Browsing**: View a list of events with detailed descriptions.
+- **Event Booking**: Logged-in users can book tickets for any available event.
+- **Admin Capabilities**: Add, update, and delete events through the booking panel.
+- **Authentication Gate**: Unauthenticated users can view event details but must log in to book.
 
+### 🔐 User Authentication
+
+- Powered by **Firebase Authentication**
+- Secure login and registration flow
+- Session management with persistent login state
 
 ### 🎨 UI & Design
-- **Modern Interface**  
-  Developed using **Bootstrap** and **module.css** 
 
+- Clean, modern interface using **Bootstrap** and **CSS Modules**
+- Responsive layout optimized for all screen sizes
+- Sidebar displays all user bookings
 
 ### 🔄 State Management
-- **Redux Toolkit Integration**  
-  Centralized state management for product data, cart operations, and user actions using reducers, actions, and a Redux store.
 
-### 🔐 Persistence & Security
-- **Firebase**  
-  Handled user authentication and session management with Firebase for secure and reliable data handling.
+- Centralized state using **Redux Toolkit**
+- Manages event data, user sessions, and booking operations
+- Scalable reducer/actions architecture
 
-## 🧰 Tech Stack
+### 🧰 Tech Stack
 
-- **Frontend**: React, Redux Toolkit, 
-- **Backend Services**: Firebase Authentication
-- **State Management**: Redux Toolkit
-- **Form Auth**: React Formik 
-- **Styling**:CSS Modules , Bootstrap
+| Category           | Tech Used                |
+|--------------------|--------------------------|
+| **Frontend**       | React, Redux Toolkit     |
+| **Backend Services** | Firebase Authentication  |
+| **Styling**        | CSS Modules, Bootstrap   |
+| **Forms & Validation** | Formik              |
+| **Dev Server**     | JSON Server (for mock data) |
+
+---
+
+
+---
+
+## 🛠️ Getting Started
+
+### 📦 Installation
+
+```bash
+1. Clone the repository:
+git clone https://github.com/your-username/event-booking-system.git
+cd event-booking-system
+
+2. Install dependencies:
+npm install
+
+3. Start the frontend development server:
+npm run dev
+
+4. Start the mock backend server with JSON Server:
+json-server --watch data/events.json --port 8000
+Make sure you have json-server installed globally.
+If not: npm install -g json-server
