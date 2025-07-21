@@ -43,9 +43,6 @@ A dynamic and responsive platform for browsing, booking, and managing events, bu
 
 ---
 
-
----
-
 ## 🔧 Getting Started
 
 ### 1. Open Visual Studio Code in Your Desired Folder
@@ -59,8 +56,8 @@ A dynamic and responsive platform for browsing, booking, and managing events, bu
 - Run the following commands in the terminal:
 
   ```sh
- git clone https://github.com/your-username/event-booking-system.git
- cd event-booking-system
+  git clone https://github.com/your-username/event-booking-system.git
+  cd event-booking-system
   ```
 
 ### 2. Install dependencies
