@@ -58,10 +58,10 @@ cd event-booking-system
 2. Install dependencies:
 npm install
 
-3. Start the frontend development server:
-npm run dev
-
-4. Start the mock backend server with JSON Server:
+3. Start the mock backend server with JSON Server:
 json-server --watch data/events.json --port 8000
 Make sure you have json-server installed globally.
 If not: npm install -g json-server
+
+4. Start the frontend development server:
+npm run dev
